@@ -22,9 +22,9 @@ const LOG = (message) => {
 }
 
 class XMPP {
-    //PLAIN = RNXMPP.PLAIN;
-    //SCRAM = RNXMPP.SCRAMSHA1;
-    //MD5 = RNXMPP.DigestMD5;
+    PLAIN = RNXMPP.PLAIN;
+    SCRAM = RNXMPP.SCRAMSHA1;
+    MD5 = RNXMPP.DigestMD5;
 
     constructor(){
         this.isConnected = false;
